@@ -1,0 +1,98 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 220px;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 220px;
+  background-color: #333;
+  color: #efefef;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 400px; }
+}
+.footer a {
+  color: #639bcf;
+}
+.footer a:hover {
+  color: #d8e6f3;
+}
+
+.container {
+  max-width: 960px;
+}
+.well {
+  background-color: transparent;
+}
+.lead {
+  color: #555;
+}
+.btn-lg {
+  padding: 14px 20px;
+  margin-right: 20px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: rgb(51,122,183);
+}
+.navbar a {
+  color: #d8e6f3;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background-color: #204d74;
+  color: #fff;
+}
+.navbar-toggle .icon-bar {
+  background-color: #d8e6f3;
+}
+@media only screen and (max-width: 768px) {
+  .dropdown-menu>li>a {
+    color: #d8e6f3;
+  }
+}
+
+/* index.html */
+.features .glyphicon {
+  font-size: 32px;
+}
+
+/* blog.html */
+.about .fa-rocket {
+  font-size: 64px;
+}
+
+.posts h1 a {
+  color: #444;
+}
+.meta {
+  margin-bottom: 1em;
+  color: #777;
+}
+.meta li {
+  border-right: 1px solid #ddd;
+}
+.meta li:last-child {
+  border-right: none;
+}
