@@ -29,6 +29,9 @@ body {
 .footer a:hover {
   color: #d8e6f3;
 }
+.break-word {
+  overflow-wrap:break-word;
+}
 
 .container {
   max-width: 960px;
@@ -56,8 +59,8 @@ body {
 }
 .nav>li>a:focus,
 .nav>li>a:hover,
-.nav .open>a, 
-.nav .open>a:focus, 
+.nav .open>a,
+.nav .open>a:focus,
 .nav .open>a:hover,
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
